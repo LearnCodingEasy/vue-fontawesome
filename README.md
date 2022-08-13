@@ -55,12 +55,24 @@ import { fab } from "@fortawesome/free-brands-svg-icons";";
 import { far } from "@fortawesome/free-regular-svg-icons";
 ```
 # USE
-####
+#### Use Solid
+```
+<fa icon="user" />
 ```
 ```
-####
+<fa :icon="['fas', 'user']"></fa>
+```
+#### Use Brands
+```
+<fa icon="font-awesome" />
 ```
 ```
-####
+<fa :icon="['fab', 'font-awesome']"></fa>
 ```
+#### Use Regular
+```
+<fa icon="window-close" />
+```
+```
+<fa icon="['far','window-close']"></fa>
 ```
