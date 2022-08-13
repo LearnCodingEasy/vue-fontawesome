@@ -9,7 +9,7 @@
 ```
 <i class="fas fa-home fa-1x fa-fw"></i>
 ```
-#### INSTALL
+# INSTALL
 ```
 npm i --save @fortawesome/fontawesome-svg-core
 ```
